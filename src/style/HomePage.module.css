@@ -1,0 +1,110 @@
+.container {
+    position: relative;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(../assets/HomePagePicture.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 150px 100px 100px 0;
+    width: 100%;
+}
+
+
+.getstartedButton {
+    background-color: rgb(142, 112, 112);
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.getstartedButton:hover {
+    cursor: pointer;
+    background-color: rgb(121, 97, 97);
+}
+
+.h1style {
+    font-size: 150px;
+    margin: 0;
+    border: none;
+}
+
+.homepageContent {
+    font-size: 12px;
+    text-align: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.social {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.icon {
+    margin-right: 25px;
+    font-size: 22px;
+    transition: all .2s ease-in;
+}
+
+.icon:hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.darkmodeButton {
+    display: none;
+}
+
+
+@media screen and (max-width: 735px) {
+    .h1style {
+        font-size: 100px;
+    }
+
+    .social {
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: fit-content;
+    }
+
+    .icon {
+        margin-right: 50px;
+        font-size: 30px;
+    }
+
+    .icon:hover {
+        font-size: 35px;
+    }
+
+    .darkmodeButton {
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 10px;
+        background: transparent;
+        border: none;
+        transform: rotate(90deg);
+    }
+
+    .homepageContent {
+        width: 70%;
+    }
+
+    .getstartedButton {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,188 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    height: 100%;
+    background-color: #09090C;
+    color: #fff;
+}
+
+.topSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20%;
+    width: 100%;
+    height: 400px;
+    background-image: url(../assets/ContactImage.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.topSection h2 {
+    font-size: 30px;
+}
+
+h2 span {
+    color: #91E227
+}
+
+.middleSection {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+.middleSection img {
+    height: 300px;
+}
+
+.zozosuitLine {
+    background-color: rgb(153, 142, 142);
+    border-width: 0;
+    height: 1px;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.zozosuitImage {
+    margin-bottom: -23px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.separator {
+    margin: 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.bottomMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+
+.bottomMain h2 {
+    font-size: 64px;
+    margin: 0;
+}
+
+.bottomMain .social {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+
+}
+
+.bottomMain .icon {
+    font-size: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #383838;
+    transition: all .3s ease-in;
+}
+
+.icon:hover {
+    background-color: #1ee1b3a7;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.arrowIcon {
+    transition: all .3s ease-in;
+    color: #1EE1B3;
+}
+
+.arrowIcon:hover {
+    scale: 1.3;
+    color: #1ecde1;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+    width: fit-content;
+}
+
+.footer a {
+    font-size: 12px;
+    transition: all .1s ease-in;
+}
+
+.footer a:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.middleSection p {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 40%;
+    text-align: center;
+    color: #ddd;
+}
+
+.rights {
+    display: flex;
+}
+
+.terms {
+    display: flex;
+}
+
+.zozoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 835px) {
+    .middleSection p {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .middleSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .middleSection p {
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .zozoContainer {
+        width: 100%;
+        align-items: center;
+    }
+
+    .separator {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,211 @@
+.container {}
+
+.dark {
+    background-color: #08080C;
+    color: #fff;
+}
+
+.light {
+    background-color: #EFEDED;
+    border-bottom: 1px solid #000;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.line {
+    background-color: #1EE1B3;
+    width: 90px;
+    height: 2px;
+}
+
+.greyLine {
+    background-color: #ddd;
+    width: 50px;
+    height: 2px;
+}
+
+.organizeLine {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
+.companies img {
+    margin-right: 50px;
+}
+
+.learnmoreButton {
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    transition: all .3s ease-in;
+}
+
+.learnmoreButton:hover {
+    cursor: pointer;
+}
+
+.learnmoreButtonDark {
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.learnmoreButtonLight {
+    background-color: #000;
+    color: #fff;
+}
+
+.learnmoreButton:hover {
+    background-color: #1EE1B3;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 50px;
+}
+
+.intro p {
+    text-align: start;
+    width: 70%;
+    word-wrap: break-word;
+}
+
+
+.image {
+    position: relative;
+    overflow: hidden;
+}
+
+.corousel:hover img {
+    scale: 1.1;
+}
+
+.corousel:hover .imageTag {
+    bottom: 0;
+}
+
+
+
+.imageTag {
+    position: absolute;
+    bottom: -130px;
+    width: 100%;
+    transition: all .3s ease-in;
+}
+
+.navigationIcons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navigationIcons:hover {
+    top: -1px;
+}
+
+.icons {
+    background: #9c9999;
+    color: #fff;
+    margin: 1px;
+    font-size: 22px;
+    transition: all .2s ease-in;
+}
+
+.icons:hover {
+    color: #1EE1B3;
+    background-color: #242424;
+    cursor: pointer;
+}
+
+.imageTag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+    color: #fff;
+    height: 130px;
+}
+
+.image img {
+    transition: all .5s ease;
+    height: 60vh;
+}
+
+.imageBar {
+    margin: 0;
+    border-width: 0;
+    height: 20px;
+    width: 80px;
+    background-color: #1EE1B3;
+}
+
+/* style for tablet */
+@media screen and (max-width: 835px) {
+    .companies {
+        justify-content: space-evenly;
+    }
+
+    .companies img {
+        height: 100px;
+        width: 100px;
+        margin-right: 20px;
+    }
+
+    .image img {
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+
+    }
+
+    .intro p {
+        width: 300px;
+        margin-right: 50px;
+        /* margin-bottom: 10px; */
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .content {
+        flex-direction: column-reverse;
+        /* align-items: center; */
+        justify-content: space-between;
+    }
+
+    .companies img {
+        width: 60px;
+    }
+
+    .image {
+        width: fit-content;
+    }
+
+    .image img {
+        width: fit-content;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .intro p {
+        width: 80%;
+    }
+
+    .learnmoreButton {
+        padding: 15px 40px;
+    }
+
+    .intro {
+        margin: 40px 0;
+    }
+}

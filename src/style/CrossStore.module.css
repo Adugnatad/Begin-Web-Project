@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    background-position: 20%;
+    background-image: url(../assets/crossStoreImage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.light {
+    background-color: #fff;
+    color: #000;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-right: 20%;
+    margin-bottom: 100px;
+}
+
+.content p {
+    margin-bottom: 50px;
+    text-align: start;
+    color: #ddd;
+}
+
+.crossStoreButton {
+    width: fit-content;
+    padding: 10px 40px;
+    font-weight: 600;
+    border: none;
+    transition: all .3s ease-in;
+}
+
+.crossStoreButton:hover {
+    cursor: pointer;
+    background-color: #1EE1B3;
+}
+
+.darkbtn {
+    background-color: #fff;
+    color: #000;
+}
+
+.lightbtn {
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 835px) {
+    .container {
+        position: relative;
+    }
+
+    .content {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        margin: 0;
+        width: 40%;
+        align-self: flex-end;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .content {
+        width: 50%;
+        margin-right: 2%;
+    }
+
+    .content p {
+        width: 100%;
+        height: 250px;
+        align-self: flex-end;
+        overflow: hidden;
+    }
+}
