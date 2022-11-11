@@ -80,7 +80,7 @@
 @media screen and (max-width: 735px) {
     .content {
         width: 50%;
-        margin-right: 2%;
+        margin-right: 2;
     }
 
     .content p {

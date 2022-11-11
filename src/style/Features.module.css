@@ -132,10 +132,18 @@ h1 {
 
     .featureImage {
         align-self: revert;
+        width: fit-content;
+        background-size: 90%;
     }
 
     .footerSection h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
+}
+
+@media screen and (max-width: 400px) {
+    .featureImage {
+        width: 100%;
+    }
 }

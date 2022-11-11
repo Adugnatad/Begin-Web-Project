@@ -64,12 +64,6 @@ const About = ({ darkmode }) => {
           </button>
         </div>
         <div className={styles.corousel}>
-          <hr
-            className={styles.imageBar}
-            style={{
-              marginLeft: `${image === 0 ? "50px" : image === 1 ? "150px" : "220px"}`,
-            }}
-          />
           <div className={styles.image}>
             <img src={images[image]} alt="AboutImage" />
             <div className={styles.imageTag}>
