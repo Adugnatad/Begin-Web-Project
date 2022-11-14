@@ -6,7 +6,7 @@ import React from "react";
 import styles from "../../style/HomePage.module.css";
 const HomePage = ({ darkmode, changeDarkmode }) => {
   return (
-    <div className={styles.container} style={{ backgroundImage: 'url(/HomePagePicture.png)' }}>
+    <div className={styles.container}>
       <div className={styles.content}>
         <button className={styles.darkmodeButton} onClick={() => changeDarkmode(!darkmode)}><img src={darkmode ? DarkMode : LightMode} alt="dark-mode icon" /></button>
         <p style={{ margin: 0, color: "#1EE1B3", fontSize: "15px" }}>TAGLINE</p>
