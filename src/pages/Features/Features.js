@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "../../style/Features.module.css";
-import featureImage from "../../assets/featureImage.png";
-import Height from "../../assets/Height.png";
-import Closet from "../../assets/Closet.png";
-import Shirt from "../../assets/Shirt.png";
+import featureImage from "../../assets/featureImage.jpg";
+import Height from "../../assets/Height.jpg";
+import Closet from "../../assets/Closet.jpg";
+import Shirt from "../../assets/Shirt.jpg";
 import { FaPlay } from "react-icons/fa";
 
 

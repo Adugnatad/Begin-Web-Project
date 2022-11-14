@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../../style/WhyBegin.module.css";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Button } from "@mui/material";
-import Jacket from "../../assets/Jacket.png";
+import Jacket from "../../assets/Jacket.jpg";
 
 const WhyBegin = ({ darkmode }) => {
   const cardContent = [

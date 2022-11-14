@@ -4,7 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import specIcon from "../../assets/specIcon.png";
+import specIcon from "../../assets/specIcon.jpg";
 import styled from "@emotion/styled";
 import styles from "./Accordion.module.css";
 

@@ -1,16 +1,16 @@
 import { Button } from "@mui/material";
 import React, { useState } from "react";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import Image1 from "../../assets/Image1.png";
-import Image2 from "../../assets/Image2.png";
-import Image3 from "../../assets/Image3.png";
-import Image4 from "../../assets/Image4.png";
-import Image5 from "../../assets/Image5.png";
-import Image1L from "../../assets/Image1L.png";
-import Image2L from "../../assets/Image2L.png";
-import Image3L from "../../assets/Image3L.png";
-import Image4L from "../../assets/Image4L.png";
-import Image5L from "../../assets/Image5L.png";
+import Image1 from "../../assets/Image1.jpg";
+import Image2 from "../../assets/Image2.jpg";
+import Image3 from "../../assets/Image3.jpg";
+import Image4 from "../../assets/Image4.jpg";
+import Image5 from "../../assets/Image5.jpg";
+import Image1L from "../../assets/Image1L.jpg";
+import Image2L from "../../assets/Image2L.jpg";
+import Image3L from "../../assets/Image3L.jpg";
+import Image4L from "../../assets/Image4L.jpg";
+import Image5L from "../../assets/Image5L.jpg";
 import styles from "./Slider.module.css";
 
 const Slider = () => {

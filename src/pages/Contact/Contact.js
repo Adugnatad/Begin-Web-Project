@@ -1,6 +1,6 @@
 import React from "react";
 import contactStyles from "../../style/Contact.module.css";
-import Zozosuit from "../../assets/Zozosuit.png";
+import Zozosuit from "../../assets/Zozosuit.jpg";
 import { TiArrowSortedUp } from "react-icons/ti";
 import {
   AiOutlineInstagram,

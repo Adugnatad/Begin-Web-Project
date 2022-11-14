@@ -6,8 +6,8 @@ import Marvelous from "../../assets/MarvelousLogo 1.svg";
 import Clo from "../../assets/CloLogo 1.svg";
 import Browzwear from "../../assets/BrowzwearLogo 1.svg";
 import AboutImage from "../../assets/AboutImage.svg";
-import AboutImage2 from "../../assets/AboutImage2.png";
-import AboutImage3 from "../../assets/AboutImage3.png";
+import AboutImage2 from "../../assets/AboutImage2.jpg";
+import AboutImage3 from "../../assets/AboutImage3.jpg";
 import { Button } from "@mui/material";
 import { IoChevronBackSharp, IoChevronForwardSharp } from "react-icons/io5";
 
